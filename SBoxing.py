@@ -33,7 +33,7 @@ def input_with_timeout(prompt, timeout=INPUT_TIMEOUT):
             pass
 
 # rounds left counter (do not shadow built-in `round`)
-rounds = 5
+rounds = 10
 
 # game state
 player_move = None
@@ -198,7 +198,7 @@ print("this game is called shadow boxing" )
 print("the goal of the game is to combo your opponent")
 print("You can do this by typeing one of these numbers once each turn ")
 print("1(up),2(left),3(right) and 4(down) but you only have 20 seconds to decide ")
-play = input("if you want to start type Y")
+play = input("if you want to start type Y  ")
 #start the game
 if play == "y" or play == "Y":
     
